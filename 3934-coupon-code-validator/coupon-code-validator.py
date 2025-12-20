@@ -20,7 +20,6 @@ class Solution:
                 continue
             self.out[businessLine[i]].append(code[i])
         out = []
-        print(self.out)
         for i in self.out.values():
             out.extend(sorted(i))
         return out
